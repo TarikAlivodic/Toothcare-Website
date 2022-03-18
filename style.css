@@ -1,0 +1,87 @@
+:root {
+    --color--primary: rgb(0,188,212);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto, Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+}
+.header .header-item:first-child {
+    padding: 10px;
+    background-color: rgb(248,248,248);
+}
+.header .header-item:last-child {
+    background-color: rgb(235,235,235);
+}
+.header-item .container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+
+}
+.toothcare{
+    height: auto;
+    width: 20%;
+    vertical-align: middle;
+}
+.toothcare h3{
+    color: var(--color--primary);
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.toothcare p{
+    color: #aaaaaa;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 600;
+}
+.menu-items {
+    display: flex;
+    grid-column-gap: 150px;
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+.menu-item-icon{
+    font-size: 27px;
+    vertical-align: middle;
+    color: var(--color--primary);
+}
+.menu-item-content{
+    padding: 10px;
+}
+.menu-item-content span:first-child {
+    color: var(--color--primary);
+}
+.menu-item-content span:last-child {
+    color: #aaaaaa;
+    font-weight: 500;
+}
+.menu-nav {
+    display: flex;
+    grid-column-gap: 50px;
+    list-style: none;
+    color: rgb(117,117,117);
+    cursor: pointer;
+}
+.appointment {
+    padding: 27px;
+    background-color: var(--color--primary);
+    color: white;
+    font-weight: 700;
+    size: 13px;
+    letter-spacing: 2px;
+}
+.active{
+    color: var(--color--primary);
+}

@@ -1,0 +1,79 @@
+.clinic{
+    display: flex;
+    width: 100%;
+    height: 570px;
+    background-color: whitesmoke;
+}
+.treatment{
+    width: 87%;
+    height: 100%;
+    padding-left: 5%;
+}
+.treatment img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dental-clinic{
+    display: flex;
+    align-items: center;
+}
+.dental-clinic-text{
+    padding-left: 50px;
+    padding-right: 105px;
+}
+.dental-clinic-text span{
+    color: var(--color--primary);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.dental-clinic-text h1{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 38px;
+    line-height: 53px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.dental-clinic-text p{
+    color: rgb(158,158,158);
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+}
+.clinics{
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 20px;
+    margin-top: 50px;
+    padding: 0 70px;
+}
+.happy{
+    display: flex;
+    flex:1;
+    border: 1px solid var(--color--primary);
+    border-radius: 5px;
+    padding: 20px;
+}
+.iconhappy{
+    align-self: flex-start;
+    margin-right: 20px;
+}
+.iconhappy i{
+    font-size: 35px;
+    color: var(--color--primary);
+}
+.happytext h2{
+    color: var(--color--primary);
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.happytext span{
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: rgb(158,158,158);
+}
