@@ -79,6 +79,7 @@
     background-color: var(--color--primary);
     color: white;
     border-radius: 50%;
+    cursor: pointer;
 }
 .social-icon i{
     font-size: 15px;
