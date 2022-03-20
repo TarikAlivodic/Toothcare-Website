@@ -1,5 +1,6 @@
 .marketing{
     background-color: rgb(248,248,248);
+    height: 800px;
 }
 .customers{
     text-align: center;
@@ -24,18 +25,29 @@
     margin-left: 5%;
     margin-top: 10%;
     width: 90%;
+    gap: 30px;
 }
 .all-info{
     background-color: white;
+    position: relative;
+    border-radius: 4px;
 }
-.quote{
-    background-color: whitesmoke;
-    font-size: 40px;
+.quotes{
+    background-color: rgb(248,248,248);
+    border: 10px solid rgb(248,248,248);
+    border-radius: 50%;
+    z-index: 2;
+    height: 35px;
+    font-size: 35px;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    color: var(--color--primary);
 }
 .manager-quote{
     display: flex;
     align-self: center;
-    padding: 10px;
+    padding: 5px;
     width: 80%;
 }
 .manager-quote p{
@@ -43,7 +55,7 @@
     line-height: 29px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 20px 0 20px 10px;
 }
 .roger-scott{
     display: flex;
