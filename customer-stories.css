@@ -24,33 +24,55 @@
     width: 100%;
     height: 350px;
 }
-.customer-info{
-    margin-top: 85%;
+.customer-info-text {
+    width: 100%;
+    padding: 20px;
+    align-self: flex-end;
+    display: none;
+    text-align: center;
+    position: relative;
+}
+.customer-info-text::before {
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    opacity: 0.2;
+    position: absolute;
 }
 .customers-info1, .customers-info2, .customers-info3, .customers-info4{
     text-align: center;
 }
-.customers-info1{
+.customers-info {
+    width: 25%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.customer-info-text span{
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.customer-info-text p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.customers-info:hover .customer-info-text {
+    display: block;
+}
+.customers-info#one{
     background-image: url(customer1.webp);
-    width: 25%;
-    background-size: cover;
-    background-position: center;
 }
-.customers-info2{
+.customers-info#two{
     background-image: url(customer2.webp);
-    width: 25%;
-    background-size: cover;
-    background-position: center;
 }
-.customers-info3{
+.customers-info#three{
     background-image: url(customer3.webp);
-    width: 25%;
-    background-size: cover;
-    background-position: center;
 }
-.customers-info4{
+.customers-info#four{
     background-image: url(customer4.webp);
-    width: 25%;
-    background-size: cover;
-    background-position: center;
 }
