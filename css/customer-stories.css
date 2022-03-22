@@ -65,14 +65,14 @@
     display: block;
 }
 .customers-info#one{
-    background-image: url(customer1.webp);
+    background-image: url(/Users/taro/Desktop/IT/camp/imgs/customer1.webp);
 }
 .customers-info#two{
-    background-image: url(customer2.webp);
+    background-image: url(/Users/taro/Desktop/IT/camp/imgs/customer2.webp);
 }
 .customers-info#three{
-    background-image: url(customer3.webp);
+    background-image: url(/Users/taro/Desktop/IT/camp/imgs/customer3.webp);
 }
 .customers-info#four{
-    background-image: url(customer4.webp);
+    background-image: url(/Users/taro/Desktop/IT/camp/imgs/customer4.webp);
 }

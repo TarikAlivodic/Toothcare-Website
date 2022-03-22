@@ -3,7 +3,7 @@
     position: relative;
     width: 100%;
     height: 20vh;
-    background-image: url(./dentist-appointment.webp);
+    background-image: url("/Users/taro/Desktop/IT/camp/imgs/dentist-appointment.webp");
     background-size: cover; 
     background-position: center; 
 }
