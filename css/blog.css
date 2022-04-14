@@ -80,7 +80,7 @@
 .blog-text h1{
     font-size: 20px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: 500;
     color: black;
 }
 .blog-text p{
@@ -89,4 +89,15 @@
     line-height: 29px;
     font-weight: 400;
     color: rgb(153, 153, 153);
+}
+.blog-text h1:hover{
+    color: var(--color--primary);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.comments span:hover, .comments i:hover{
+    cursor: pointer;
+}
+.blog-image:hover, .blog-image-one:hover, .blog-image-two:hover{
+    cursor: pointer;
 }
